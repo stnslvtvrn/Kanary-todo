@@ -1,0 +1,28 @@
+.constructorWrapper {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  display: flex;
+  background-color: #59d090;
+  padding: 15px;
+  border-radius: 10px;
+  border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+.todoForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.todoForm .formLabel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.todoForm .inputTitle {
+  margin-right: 15px;
+}
